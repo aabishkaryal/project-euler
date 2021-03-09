@@ -4,8 +4,12 @@ import "fmt"
 
 func main() {
 	limit := 4000000
-	sum := 0
+	sum := Solution(limit)
 
+	fmt.Println(sum)
+}
+
+func Solution(limit int) (sum int) {
 	current, prev := 1, 1
 
 	for current < limit {
@@ -14,6 +18,5 @@ func main() {
 			sum += current
 		}
 	}
-
-	fmt.Println(sum)
+	return
 }
