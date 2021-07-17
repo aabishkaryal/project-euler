@@ -1,5 +1,4 @@
 **/tmp/*
-.vscode/*
+.vscode
 .devcontainer/*
 **/*.mod
-**/.vscode/*
